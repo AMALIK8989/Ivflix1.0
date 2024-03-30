@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    width: 100% ;
+    height: 120px; /* Adjust height as needed */
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items evenly */
+    /* z-index: 1; */
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
+
+.logo {
+    margin-right: 20px; /* Add some space between logo and links */
+    width: 40%;
+    height: auto;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header a {
+    margin-right: 20px; /* Decreased the margin */
+    font-size: medium;
+    color: white;
+    font-weight: 800;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    position: relative; /* Ensure dropdown menu displays correctly */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Set background color of dropdown menu */
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+}
+
+/* Set text color for dropdown items */
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px; /* Adjust padding as needed */
+    color: rgb(0, 0, 0); /* Set text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Darken background color on hover */
+.dropdown-menu a:hover {
+    background-color: #289467;
+}
+
+/* Show dropdown menu when dropdown-toggle is hovered */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Adjust margin between dropdown items */
+.dropdown-menu a + a {
+    margin-top: 5px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: auto; /* Adjust the width automatically */
+    height: auto;
+    margin-right: 20px; /* Add margin between slider and other navbar elements */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 30px; /* Adjust the width to your preference */
+    height: 15px; /* Adjust the height to your preference */
+    background-color: #ccc;
+    border-radius: 12px; /* Adjust border radius to make the slider rounder */
+    transition: background-color 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 11px; /* Adjust the width of the slider icon */
+    height: 11px; /* Adjust the height of the slider icon */
+    top: 50%;
+    left: 2px; /* Adjust the left position of the slider icon */
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3; /* Change background color when slider is checked */
+}
+
+input:checked + .slider:before {
+    transform: translateX(13px); /* Adjust the translateX value to move the slider icon */
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 15px; /* Adjust border radius to make the slider rounder */
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+body{
+    background: linear-gradient(to right, rgb(228, 208, 96) , rgb(233, 189, 109) , rgb(241, 158, 158));
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+main{
+    width: 100%;
+    height: auto;
+ background: linear-gradient(to right, rgb(228, 208, 96) , rgb(233, 189, 109) , rgb(241, 158, 158)); */
+}
+
+#About-us{
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+    background-color: wheat;
+}
+.About-content{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: wheat;
+}
+.About{
+    text-align: center;
+    justify-content: center;
+
+}
+.About-para{
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.btn {
+    width: 150px;
+    height: 39px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(212, 197, 112), rgb(211, 212, 147));
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    line-height: 39px; /* Adjusted to match button height */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    display: inline-block; /* Ensures the button behaves as an inline block */
+}
+
+.btn:hover {
+    background: linear-gradient(to right, rgb(211, 212, 147), rgb(212, 197, 112));
+    color: white;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+.Contact-Us{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+
+}
+.contact{
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#search {
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.fa-search {
+    vertical-align: middle;
+}
+.marquee-container {
+    margin-top: 5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 25px;
+    background: black;
+}
+
+.marquee,
+.marquee-content {
+    display: inline-block;
+    animation: marquee-animation 20s infinite linear;
+    color: palevioletred;
+    letter-spacing: 5px;
+    justify-content: space-between;
+    font-family: ;
+}
+
+@keyframes marquee-animation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.footer-section  {
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    color: white;
+    background-color: rgba(59, 59, 59, 0.884);
+}
+
+.footer-logo img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    height: 100px;
+}
+
+/* Cast section styles */
+/* Cast section styles */
+.cast {
+    margin-top: 20px;
+    width: 150%; /* Adjust as needed */
+    border: 5px solid plum;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid columns */
+    gap: 10px; /* Gap between grid items */
+    padding: 20px; /* Padding for the cast section */
+    justify-content: center; /* Center content horizontally */
+    height: 900px;
+}
+
+.cast-head h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.cast-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%; /* Full width for individual cast cards */
+    height: 200px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.cast-card img {
+    width: 100%; /* Adjusted width for the cast card images */
+    height: 100%; /* Set image height to fill the parent */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cast-info {
+    text-align: center;
+}
+
+.cast-info a {
+    text-decoration: none;
+    color: #333;
+    font-size: 8px;
+}
+
+.cast-info h2 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+/* Style for the buttons within the episodes container */
+.episodes {
+    display: flex; /* Use flexbox for the container */
+    flex-direction: row; /* Arrange items in a column */
+    gap: 5px; /* Spacing between buttons */
+    color: white;
+    padding: 50px; /* Padding around the container */
+}
+
+/* Style for each button */
+.episodes button {
+    padding: 10px; /* Padding inside each button */
+    background-color: #448dfc; /* Background color */
+    border: 2px solid #020202; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 5ms ease; /* Smooth transition */
+}
+
+/* Hover effect for buttons */
+.episodes button:hover {
+    background-color: #ff5b5b; /* Darker background on hover */
+    color: rgb(238, 217, 98);
+}
+
+footer {
+    background-color: #000000; /* Adjust the background color if needed */
+    width: 100% ;
+    height: 150px;
+    padding: 0;
+}
+
+.footer-logo img {
+    max-width: 30%; /* Make sure the image doesn't exceed its container */
+    height: 120px;
+}
+#tv-card-place{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.cards-place{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+}
+
+#card {
+    width: 300px;
+    height: 150px;
+    margin: 0 5px; /* Adjust margin between cards */
+    display: inline-block; /* Display cards in a row */
+    vertical-align: top; /* Align cards to the top */
+    border: 1px solid #ccc; /* Add border to cards */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add hover transition */
+}
+
+#card:hover {
+    transform: translateY(-3px); /* Hover effect: Move card up slightly */
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2); /* Hover effect: Add box shadow */
+}
+
+#card img {
+    width: 100%; /* Adjust image width */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Ensure image corners match card border radius */
+}
+#search{
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+/* CSS for the #pagination section */
+#pagination {
+    width: 100%;
+    height: auto;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* CSS for the #pagination-place div */
+#pagination-place {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 5px; /* Adjust the margin between pagination items */
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #333; /* Set text color */
+    padding: 8px 16px; /* Adjust padding for each pagination item */
+    border: 1px solid #ccc; /* Add a border for a button-like appearance */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style for active page */
+.pagination .active {
+    background-color: #007bff; /* Set the background color for the active page */
+    color: #fff; /* Set text color for the active page */
+}
+@media screen and (min-width: 280px) and (max-width: 930px) {
+    
+header {
+    width: 100%;
+    height: 120px; /* Adjust height as needed */
+    margin: auto;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items evenly */
+    z-index: 1;
+    background-color: black;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    margin-right: 20px; /* Add some space between logo and links */
+    width: 40%;
+    height: auto;
+    background: black;
+}
+
+.logo img {
+    height: 80px; /* Adjust max-height to fit the logo */
+    width: 200px;
+}
+
+header a {
+    margin-right: 20px; /* Decreased the margin */
+    font-size: medium;
+    color: white;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    position: relative; /* Ensure dropdown menu displays correctly */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Set background color of dropdown menu */
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+}
+
+/* Set text color for dropdown items */
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px; /* Adjust padding as needed */
+    color: rgb(0, 0, 0); /* Set text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Darken background color on hover */
+.dropdown-menu a:hover {
+    background-color: #289467;
+}
+
+/* Show dropdown menu when dropdown-toggle is hovered */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Adjust margin between dropdown items */
+.dropdown-menu a + a {
+    margin-top: 5px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: auto; /* Adjust the width automatically */
+    height: auto;
+    margin-right: 20px; /* Add margin between slider and other navbar elements */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 30px; /* Adjust the width to your preference */
+    height: 15px; /* Adjust the height to your preference */
+    background-color: #ccc;
+    border-radius: 12px; /* Adjust border radius to make the slider rounder */
+    transition: background-color 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 11px; /* Adjust the width of the slider icon */
+    height: 11px; /* Adjust the height of the slider icon */
+    top: 50%;
+    left: 2px; /* Adjust the left position of the slider icon */
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3; /* Change background color when slider is checked */
+}
+
+input:checked + .slider:before {
+    transform: translateX(13px); /* Adjust the translateX value to move the slider icon */
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 15px; /* Adjust border radius to make the slider rounder */
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+body{
+    background: linear-gradient(to right, rgb(228, 208, 96) , rgb(233, 189, 109) , rgb(241, 158, 158));
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+main{
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(to right, rgb(228, 208, 96) , rgb(233, 189, 109) , rgb(241, 158, 158)); */
+}
+#slider-place {
+    width: 100%; /* Set width of the slider section */
+    height: auto;
+    margin-top: 10px; /* Add margin as needed */
+}
+
+.carousel {
+    width:100%;
+    height: auto;
+    display: flex; /* Use flexbox for carousel layout */
+    overflow-x: auto; /* Allow horizontal scrolling for slides */
+    scroll-snap-type: x mandatory; /* Enable snapping to each slide */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    flex: 0 0 auto; /* Ensure each slide has fixed width */
+    width: 100%; /* Set width of each slide */
+    height: 800px;
+    margin-right: 20px; /* Add margin between slides */
+    scroll-snap-align: start; /* Ensure each slide snaps to start of the container */
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.slide img {
+    width: 100%; /* Ensure images fill the entire slide */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+/* Hide scrollbar for the carousel */
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Add more styles as needed */
+
+.controls {
+    margin-top: 10px; /* Add margin as needed */
+}
+
+.controls button {
+    background-color: #007bff; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    margin-right: 10px; /* Add margin between buttons */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+.controls button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+#About-us{
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+    background-color: wheat;
+}
+.About-content{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: wheat;
+}
+.About{
+    text-align: center;
+    justify-content: center;
+
+}
+.About-para{
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.btn {
+    width: 150px;
+    height: 39px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(212, 197, 112), rgb(211, 212, 147));
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    line-height: 39px; /* Adjusted to match button height */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    display: inline-block; /* Ensures the button behaves as an inline block */
+}
+
+.btn:hover {
+    background: linear-gradient(to right, rgb(211, 212, 147), rgb(212, 197, 112));
+    color: white;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+.Contact-Us{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+
+}
+.contact{
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#search {
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.fa-search {
+    vertical-align: middle;
+}
+.marquee-container {
+    margin-top: 5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 25px;
+    background: black;
+}
+
+.marquee,
+.marquee-content {
+    display: inline-block;
+    animation: marquee-animation 20s infinite linear;
+    color: palevioletred;
+    letter-spacing: 5px;
+    justify-content: space-between;
+    font-family: ;
+}
+
+@keyframes marquee-animation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.footer-section  {
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    color: white;
+    background-color: rgba(59, 59, 59, 0.884);
+}
+
+.footer-logo img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    height: 100px;
+}
+
+/* Cast section styles */
+/* Cast section styles */
+.cast {
+    margin-top: 20px;
+    width: 150%; /* Adjust as needed */
+    border: 5px solid plum;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid columns */
+    gap: 10px; /* Gap between grid items */
+    padding: 20px; /* Padding for the cast section */
+    justify-content: center; /* Center content horizontally */
+    height: 900px;
+}
+
+.cast-head h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.cast-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%; /* Full width for individual cast cards */
+    height: 200px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.cast-card img {
+    width: 100%; /* Adjusted width for the cast card images */
+    height: 100%; /* Set image height to fill the parent */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cast-info {
+    text-align: center;
+}
+
+.cast-info a {
+    text-decoration: none;
+    color: #333;
+    font-size: 8px;
+}
+
+.cast-info h2 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+/* Style for the buttons within the episodes container */
+.episodes {
+    display: flex; /* Use flexbox for the container */
+    flex-direction: row; /* Arrange items in a column */
+    gap: 5px; /* Spacing between buttons */
+    color: white;
+    padding: 50px; /* Padding around the container */
+}
+
+/* Style for each button */
+.episodes button {
+    padding: 10px; /* Padding inside each button */
+    background-color: #448dfc; /* Background color */
+    border: 2px solid #020202; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 5ms ease; /* Smooth transition */
+}
+
+/* Hover effect for buttons */
+.episodes button:hover {
+    background-color: #ff5b5b; /* Darker background on hover */
+    color: rgb(238, 217, 98);
+}
+
+.marquee {
+    width: 100%;
+    background-color: #333; /* Marquee background color */
+    color: palevioletred; /* Text color */
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+#tv-card-place{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.cards-place{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+}
+
+#card {
+    width: 300px;
+    height: 150px;
+    margin: 0 5px; /* Adjust margin between cards */
+    display: inline-block; /* Display cards in a row */
+    vertical-align: top; /* Align cards to the top */
+    border: 1px solid #ccc; /* Add border to cards */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add hover transition */
+}
+
+#card:hover {
+    transform: translateY(-3px); /* Hover effect: Move card up slightly */
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2); /* Hover effect: Add box shadow */
+}
+
+#card img {
+    width: 100%; /* Adjust image width */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Ensure image corners match card border radius */
+}
+#search{
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#search {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    width: 100%;
+}
+
+#searchInput {
+    border-radius: 0;
+}
+
+#searchButton {
+    border-radius: 0;
+}
+
+/* Optional: Style the search button icon */
+#searchButton i {
+    margin-right: 5px;
+}
+/* CSS for the #pagination section */
+#pagination {
+    width: 100%;
+    height: auto;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* CSS for the #pagination-place div */
+#pagination-place {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 5px; /* Adjust the margin between pagination items */
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #333; /* Set text color */
+    padding: 8px 16px; /* Adjust padding for each pagination item */
+    border: 1px solid #ccc; /* Add a border for a button-like appearance */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style for active page */
+.pagination .active {
+    background-color: #007bff; /* Set the background color for the active page */
+    color: #fff; /* Set text color for the active page */
+}

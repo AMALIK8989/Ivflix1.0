@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickinson (2019)</title>
+     <meta name="google-adsense-account" content="ca-pub-9522598653194866">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9522598653194866"
+     crossorigin="anonymous"></script>
+    <script type='text/javascript' src='//pl22416696.toprevenuegate.com/7c/e0/ca/7ce0ca9e3e700f444edf20ea74b87c76.js'></script>
+    <meta name="monetag" content="de9ca1dcf9bb30af24c9e092ca2f0c3b">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <script src="https://alwingulla.com/88/tag.min.js" data-zone="40772" async data-cfasync="false"></script>
+    
+<script src="../sw.js"></script>   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="" style="max-width: 100px; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Browse
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../Action.html">Action</a>
+                        <a class="dropdown-item" href="#">Mystery</a>
+                        <a class="dropdown-item" href="#">Thriller</a>
+                        <a class="dropdown-item" href="../Horror.html">Horror</a>
+                        <a class="dropdown-item" href="#">Comedy</a>
+                        <a class="dropdown-item" href="#">Family</a>
+                        <a class="dropdown-item" href="#">Animated</a>
+                        <a class="dropdown-item" href="#">Pakistani</a>
+                        <a class="dropdown-item" href="#">Documentary</a>
+                        <a class="dropdown-item" href="#">Crime TV</a>
+                        <a class="dropdown-item" href="../Tv-shows.html">TV Shows</a>
+                        <a class="dropdown-item" href="#">Drama</a>
+                        <a class="dropdown-item" href="#">Romance</a>
+                        <a class="dropdown-item" href="../Indie.html">Indie Films</a>
+                        <a class="dropdown-item" href="#">Kids Show</a>
+                        <a class="dropdown-item" href="#">Sci-fi & Fantasy</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="custom-control custom-switch ml-auto">
+            <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+            <label class="custom-control-label" for="darkModeSwitch">Dark Mode</label>
+        </div>
+        <script>
+            $(document).ready(function() {
+                function toggleGenresMenu() {
+                    $('.genres').each(function() {
+                        const genres = $(this);
+                        const genresList = genres.find('ul');
+            
+                        genres.on('mouseenter', function() {
+                            genresList.css('display', 'grid');
+                        });
+            
+                        genres.on('click', function() {
+                            genresList.css('display', 'none');
+                        });
+            
+                        // Hide the list initially
+                        genresList.css('display', 'none');
+                    });
+                }
+            
+                // Call the function to initialize the event listeners
+                toggleGenresMenu();
+            });
+            
+                            </script>
+                            <script>
+                              $(document).on('pagecreate', function() {
+                function toggleGenresMenu() {
+                    $('.genres').each(function() {
+                        const genres = $(this);
+                        const genresList = genres.find('ul');
+            
+                        genres.on('mouseenter', function() {
+                            genresList.css('display', 'grid');
+                        });
+            
+                        genres.on('click', function() {
+                            genresList.css('display', 'none');
+                        });
+            
+                        // Hide the list initially
+                        genresList.css('display', 'none');
+                    });
+                }
+            
+                // Call the function to initialize the event listeners
+                toggleGenresMenu();
+            });
+            
+            
+                            </script>
+                            <script>
+                                $(document).ready(function () {
+                          // When the page is loaded, check the user's preference (e.g., from a cookie) and set dark mode if necessary.
+                          // This step is optional and depends on how you initially determine the user's dark mode preference.
+                      
+                          // Toggle dark mode on click
+                          $('#darkModeSwitch').click(function () {
+                              $('body').toggleClass('dark-mode'); // Add or remove the 'dark-mode' class on the body element
+                      
+                              // Apply dark mode styles when the switch is turned on
+                              if ($('body').hasClass('dark-mode')) {
+                                  // Define the dark mode styles here
+                                  $('body').css({
+                                      'background-image': 'none', // Remove background image in dark mode
+                                      'background-color': '#121212', // Background color in dark mode
+                                      'color': '#fff' // Text color in dark mode
+                                      // Add any other styles you want to change for dark mode here
+                                  });
+                              } else {
+                                  // Remove dark mode styles when the switch is turned off
+                                  $('body').css({
+                                      'background-image': 'linear-gradient(to bottom right, #FF355E, #A3003E, #FFAA00, #C4004E, #FFD700)', // Reset to default background image
+                                
+                                      'background-color': '', // Reset to default background color
+                                      'color': '' // Reset to default text color
+                                      // Reset any other styles you changed for dark mode here
+                                     
+
+                                  });
+                              }
+                          });
+                      });
+                      
+                      </script>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8" id="head">
+                <h1>Dickinson (2019)</h1>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://streamtape.com/e/P36dgwdoMYTxzW/" frameborder="0" scrolling="0" allowfullscreen></iframe>
+                </div>
+                <section class="Season one">
+                    <h5><b>Season 1</b>
+                    <div class="episodes">
+                        <div class="ep-1">
+                            <button id="ep-1">
+                                1
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-1").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/P36dgwdoMYTxzW/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-2">
+                            <button id="ep-2">
+                                2
+                            </button>
+                            <script>
+                        
+                         $(document).ready(function() {
+          $("#ep-2").on("click", function() {
+            $(".embed-responsive-item").attr("src", "https://streamtape.com/e/XJv6qOWqKyTZMg/");
+                                             
+        });
+        });
+                    </script>
+                            
+                        </div>
+                        <div class="ep-3">
+                            <button id="ep-3">
+                                3
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-3").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/MxYAvAY3aOCmgJo/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-4">
+                            <button id="ep-4">
+                                4
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-4").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/glPxR7qqKOfqoVm/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-5">
+                            <button id="ep-5">
+                                5
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-5").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/791Xm8YrygC4qr/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-6">
+                            <button id="ep-6">
+                                6
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-6").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/brpKmerXpzFdQ1/");
+                 });
+               });
+                </script>
+                        </div>
+                 <div class="ep-7">
+                            <button id="ep-7">
+                                7
+                            </button>
+                            <script>
+                        
+                         $(document).ready(function() {
+          $("#ep-7").on("click", function() {
+            $(".embed-responsive-item").attr("src", "https://streamtape.com/e/6mR49pR2L1U90vy/");
+                                             
+        });
+        });
+                    </script>
+                            
+                        </div>
+                        <div class="ep-8">
+                            <button id="ep-8">
+                                8
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-8").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/4R1O67vGqlFd1v/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-9">
+                            <button id="ep-9">
+                                9
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-4").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/2La7BBG4LJIZrGj/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-10">
+                            <button id="ep-10">
+                                10
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-10").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/J9vwkRzKMvC9R0/");
+                 });
+               });
+                           </script>
+                        </div>
+                        
+                      
+                    </div>
+                </section>
+                <section id="season-2">
+                    <h5><b>Season 2</b>
+                        <div class="episodes">
+                            <div class="ep-1">
+                                <button id="s2ep-1">
+                                    1
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-1").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/opgX3J9La2hdJB/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-2">
+                                <button id="s2ep-2">
+                                    2
+                                </button>
+                                <script>
+                            
+                             $(document).ready(function() {
+              $("#s2ep-2").on("click", function() {
+                $(".embed-responsive-item").attr("src", "https://streamtape.com/e/41pMlqpzOBCKaB8/");
+              });
+            });
+                        </script>
+                                
+                            </div>
+                            <div class="ep-3">
+                                <button id="s2ep-3">
+                                    3
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-3").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/MrO08MkJmvumxbY/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-1">
+                                <button id="s2ep-4">
+                                    4
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-4").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/26DGA46r1yUxgd/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-1">
+                                <button id="s2ep-5">
+                                    5
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-5").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/lxeBWaOwqmCmQm/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-1">
+                                <button id="s2ep-6">
+                                    6
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-6").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/xkPm6xRM23HkBv3/");
+                     });
+                   });
+                    </script>
+                            </div>
+
+                            <div class="ep-7">
+                                <button id="s2ep-7">
+                                    7
+                                </button>
+                                <script>
+                            
+                             $(document).ready(function() {
+              $("#s2ep-7").on("click", function() {
+                $(".embed-responsive-item").attr("src", "https://streamtape.com/e/JwlzYew0jdfjdrP/");
+              });
+            });
+                        </script>
+                                
+                            </div>
+                             <div class="ep-8">
+                                <button id="s2ep-8">
+                                    8
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-8").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/MJyZLMXKeYhmx8K/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-9">
+                                <button id="s2ep-9">
+                                    9
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-3").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/JAGAMmVApecZvd/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-10">
+                                <button id="s2ep-4">
+                                    10
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s2ep-4").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/wDmdm0PebvsPdP/");
+                     });
+                   });
+                               </script>
+                            </div>
+                        
+                            </div>
+                          
+                </section>
+
+             <section id="season-3">
+                    <h5><b>Season 3</b>
+                        <div class="episodes">
+                            <div class="ep-1">
+                                <button id="s3ep-1">
+                                    1
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-1").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/jkl9drGD0kUGPX/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-2">
+                                <button id="s3ep-2">
+                                    2
+                                </button>
+                                <script>
+                            
+                             $(document).ready(function() {
+              $("#s3ep-2").on("click", function() {
+                $(".embed-responsive-item").attr("src", "https://streamtape.com/e/abdQ6dJxpzSxYzj/");
+              });
+            });
+                        </script>
+                                
+                            </div>
+                            <div class="ep-3">
+                                <button id="s2ep-3">
+                                    3
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-3").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/WgZAmWgljxcbbD1/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-4">
+                                <button id="s3ep-4">
+                                    4
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-4").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/k3VbdJ1MPlU6r6/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-5">
+                                <button id="s3ep-5">
+                                    5
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-5").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/RBgZlV6Gm4fdRYJ/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-6">
+                                <button id="s3ep-6">
+                                    6
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-6").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/Y8LoJ6WPlGSv9a8/");
+                     });
+                   });
+                    </script>
+                            </div>
+
+                            <div class="ep-7">
+                                <button id="s3ep-7">
+                                    7
+                                </button>
+                                <script>
+                            
+                             $(document).ready(function() {
+              $("#s3ep-7").on("click", function() {
+                $(".embed-responsive-item").attr("src", "https://streamtape.com/e/oe98zKaRmDivWg/");
+              });
+            });
+                        </script>
+                                
+                            </div>
+                             <div class="ep-8">
+                                <button id="s3ep-8">
+                                    8
+                                </button>
+                                <script>
+                            
+                             $(document).ready(function() {
+              $("#s3ep-8").on("click", function() {
+                $(".embed-responsive-item").attr("src", "https://streamtape.com/e/dVe4YMG9yXCkw30/");
+              });
+            });
+                        </script>
+                                
+                            </div>
+                            <div class="ep-9">
+                                <button id="s3ep-9">
+                                    9
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-9").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/vVarq6QoKOHawv/");
+                     });
+                   });
+                               </script>
+                            </div>
+                            <div class="ep-10">
+                                <button id="s3ep-10">
+                                    10
+                                </button>
+                                <script>
+                            
+                                    $(document).ready(function() {
+                     $("#s3ep-10").on("click", function() {
+                       $(".embed-responsive-item").attr("src", "https://streamtape.com/e/do2p6Z77Q2tkOk2/");
+                     });
+                   });
+                               </script>
+                            </div>
+                        
+                            </div>
+                          
+                </section>
+                <div class="description mt-4">
+                    <H1>Description:</H1>
+        <p>
+            ## Dickinson: A Season-by-Season Synopsis
+
+**Season 1:**
+
+* **Yearning for Freedom:** Young Emily Dickinson (Hailee Steinfeld) grapples with societal expectations and her burgeoning passion for poetry. She navigates family pressures, societal constraints, and a burgeoning love for Sue Gilbert (Ella Hunt).
+
+**Season 2:**
+
+* **The Cost of Fame:** Emily wrestles with the decision of publishing her poems, questioning the impact on her personal life and artistic integrity. The season explores themes of family dynamics, societal expectations, and the complexities of love and friendship.
+
+**Season 3:**
+
+* **Echoes of War:** Set against the backdrop of the Civil War, Emily confronts the personal and societal costs of the conflict. She grapples with her role as an artist in wartime, seeking to understand her purpose and the impact of her words. The season explores themes of loss, identity, and the enduring power of creativity.
+
+**Additional Notes:**
+
+* The series takes creative liberties with historical accuracy, incorporating modern language and anachronisms for a more relatable and engaging experience.
+* Each season delves into Emily's relationships with her family, friends, and mentors, highlighting the challenges and joys of navigating 19th-century society.
+* The show ultimately portrays Emily's journey of self-discovery, artistic growth, and the impact of her voice on the world.
+        </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-card">
+                    <div class="info-card-image">
+                        <img src="../img/Dickinson Info-card.jpg" alt="" width="250px">
+                        <p><b>Director:</b> Michael Waldron</p>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="cast">
+                                    <div class="cast-head">
+                                        <h3>Cast:</h3>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Cast Cards -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Hailee steinfeld.jpeg" alt="Henry Cavill">
+                                              
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Card for Gary Oldman -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Ella hunt.jpeg" alt="Gary Oldman">
+                                                
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Card for Abbie Cornish -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Anna baryshnikov.jpeg" alt="Abbie Cornish">
+                                                
+                                            </div>
+                                        </div>
+                    
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/" alt="Samuel L. Jackson">
+                                              
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+                    
+                    
+                                        <!-- Add more col-md-3 divs within the row for additional cast members -->
+                                    </div>
+                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rest of your info cards -->
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="marquee mt-5">
+        <marquee direction="right">
+            Action-
+            Adventure-
+            Mystery-
+            Thriller-
+            Horror-
+            Comedy-
+            Family-
+            Animated-
+            Pakistani-
+            Documentary-
+            Crime-
+            TV Shows-
+            Indie-
+            Drama-
+            Romance-
+            Sci-fi & Fantasy
+        </marquee>
+        <section>
+        <footer class="text-center mt-3" style="width: 100%; height: 170px; background-color: rgba(59, 59, 59, 0.884);">
+           <div class="footer-logo" style="display: flex; width: 40%; height: 120px;">
+            <img src="../img/Logo.png" alt="">
+           </div>
+            <p >@copyrights Reserved By <a href="https://codecanvas-v2.netlify.app/">CodeCanvas</a></p>
+        </footer>
+    </div>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

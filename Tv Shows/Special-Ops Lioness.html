@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special-Ops : Lioness (2023)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+     <meta name="google-adsense-account" content="ca-pub-9522598653194866">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9522598653194866"
+     crossorigin="anonymous"></script>
+    <meta name="monetag" content="de9ca1dcf9bb30af24c9e092ca2f0c3b">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <script src="https://alwingulla.com/88/tag.min.js" data-zone="40772" async data-cfasync="false"></script>
+    
+<script src="../sw.js"></script>
+    <script>
+        $(document).ready(function() {
+        var today = new Date();
+        var prideMonth = 5; // January is represented as 0 (0-indexed) in JavaScript
+        var prideDay = 28;
+    
+        if (today.getMonth() === prideMonth && today.getDate() === prideDay) {
+          // Target the logo element
+          var logo = $(".navbar-brand img");
+    
+          var prideFlag = $("<div class='pride-flag-container'><img src='./img/Pride Flag .png'></div>"); // Adjust the path as needed
+    
+          // Insert the pride flag after the logo // Adjust the path as needed
+    
+          // Insert the pride flag after the logo
+          logo.after(prideFlag);
+        }
+        // Style the logo
+      $(".navbar-brand img").css({
+        "max-width": "100px",
+        "height": "auto"
+      });
+    
+      // Style the pride flag container
+      $(".pride-flag-container").css({
+        "max-width": "100px", // Adjust the maximum width of the pride flag
+        "height": "40px",
+        "margin-left": "10px", // Add margin to separate the pride flag from the logo
+        "display": "inline-block" // Ensure it stays inline with the logo
+      });
+    
+      });
+    
+        </script>
+
+<script>
+    $(document).ready(function() {
+    var today = new Date();
+    var prideMonth = 5; // January is represented as 0 (0-indexed) in JavaScript
+    var prideDay = 28;
+
+    if (today.getMonth() === prideMonth && today.getDate() === prideDay) {
+      // Target the logo element
+      var logo = $(".navbar-brand img");
+
+      var prideFlag = $("<div class='pride-flag-container'><img src='./img/Pride Flag .png'></div>"); // Adjust the path as needed
+
+      // Insert the pride flag after the logo // Adjust the path as needed
+
+      // Insert the pride flag after the logo
+      logo.after(prideFlag);
+    }
+    // Style the logo
+  $(".navbar-brand img").css({
+    "max-width": "100px",
+    "height": "auto"
+  });
+
+  // Style the pride flag container
+  $(".pride-flag-container").css({
+    "max-width": "100px", // Adjust the maximum width of the pride flag
+    "height": "40px",
+    "margin-left": "10px", // Add margin to separate the pride flag from the logo
+    "display": "inline-block" // Ensure it stays inline with the logo
+  });
+
+  });
+
+    </script>
+    
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="" style="max-width: 100px; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Browse
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./Action.html">Action</a>
+                        <a class="dropdown-item" href="#">Mystery</a>
+                        <a class="dropdown-item" href="#">Thriller</a>
+                        <a class="dropdown-item" href="./Horror.html">Horror</a>
+                        <a class="dropdown-item" href="#">Comedy</a>
+                        <a class="dropdown-item" href="#">Family</a>
+                        <a class="dropdown-item" href="#">Animated</a>
+                        <a class="dropdown-item" href="#">Pakistani</a>
+                        <a class="dropdown-item" href="#">Documentary</a>
+                        <a class="dropdown-item" href="#">Crime TV</a>
+                        <a class="dropdown-item" href="./Tv-shows.html">TV Shows</a>
+                        <a class="dropdown-item" href="#">Drama</a>
+                        <a class="dropdown-item" href="#">Romance</a>
+                        <a class="dropdown-item" href="./Indie.html">Indie Films</a>
+                        <a class="dropdown-item" href="#">Kids Show</a>
+                        <a class="dropdown-item" href="#">Sci-fi & Fantasy</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="custom-control custom-switch ml-auto">
+            <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+            <label class="custom-control-label" for="darkModeSwitch">Dark Mode</label>
+        </div>
+        <script>
+            $(document).ready(function() {
+                function toggleGenresMenu() {
+                    $('.genres').each(function() {
+                        const genres = $(this);
+                        const genresList = genres.find('ul');
+            
+                        genres.on('mouseenter', function() {
+                            genresList.css('display', 'grid');
+                        });
+            
+                        genres.on('click', function() {
+                            genresList.css('display', 'none');
+                        });
+            
+                        // Hide the list initially
+                        genresList.css('display', 'none');
+                    });
+                }
+            
+                // Call the function to initialize the event listeners
+                toggleGenresMenu();
+            });
+            
+                            </script>
+                            <script>
+                              $(document).on('pagecreate', function() {
+                function toggleGenresMenu() {
+                    $('.genres').each(function() {
+                        const genres = $(this);
+                        const genresList = genres.find('ul');
+            
+                        genres.on('mouseenter', function() {
+                            genresList.css('display', 'grid');
+                        });
+            
+                        genres.on('click', function() {
+                            genresList.css('display', 'none');
+                        });
+            
+                        // Hide the list initially
+                        genresList.css('display', 'none');
+                    });
+                }
+            
+                // Call the function to initialize the event listeners
+                toggleGenresMenu();
+            });
+            
+            
+                            </script>
+                            <script>
+                                $(document).ready(function () {
+                          // When the page is loaded, check the user's preference (e.g., from a cookie) and set dark mode if necessary.
+                          // This step is optional and depends on how you initially determine the user's dark mode preference.
+                      
+                          // Toggle dark mode on click
+                          $('#darkModeSwitch').click(function () {
+                              $('body').toggleClass('dark-mode'); // Add or remove the 'dark-mode' class on the body element
+                      
+                              // Apply dark mode styles when the switch is turned on
+                              if ($('body').hasClass('dark-mode')) {
+                                  // Define the dark mode styles here
+                                  $('body').css({
+                                      'background-image': 'none', // Remove background image in dark mode
+                                      'background-color': '#121212', // Background color in dark mode
+                                      'color': '#fff' // Text color in dark mode
+                                      // Add any other styles you want to change for dark mode here
+                                  });
+                              } else {
+                                  // Remove dark mode styles when the switch is turned off
+                                  $('body').css({
+                                      'background-image': 'linear-gradient(to bottom right, #FF355E, #A3003E, #FFAA00, #C4004E, #FFD700)', // Reset to default background image
+                                
+                                      'background-color': '', // Reset to default background color
+                                      'color': '' // Reset to default text color
+                                      // Reset any other styles you changed for dark mode here
+                                     
+
+                                  });
+                              }
+                          });
+                      });
+                      
+                      </script>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8" id="head">
+                <h1>Special-Ops : Lioness (2023)</h1>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://streamtape.com/e/WVRgW8kx94hR1L/" frameborder="0" scrolling="0" allowfullscreen></iframe>
+                </div>
+                <section class=>
+                    <div class="episodes">
+                        <div class="ep-1">
+                            <button id="ep-1">
+                                1
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-1").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/WVRgW8kx94hR1L/");
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-2">
+                            <button id="ep-2">
+                                2
+                            </button>
+                            <script>
+                        
+                         $(document).ready(function() {
+          $("#ep-2").on("click", function() {
+            $(".embed-responsive-item").attr("src", "https://streamtape.com/e/dLrO2XlYjQIkoWj/");
+          });
+        });
+                    </script>
+                            
+                        </div>
+                        <div class="ep-3">
+                            <button id="ep-3">
+                                3
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-3").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/8XY41ePKMGtoKPB/");
+               });
+                           </script>
+                        </div>
+                        <div class="ep-1">
+                            <button id="ep-4">
+                                4
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-4").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/P924OLGWoQFBjZ/");                 
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-1">
+                            <button id="ep-5">
+                                5
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-5").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/kg2Zz9XPkgUOwAL/");       
+                 });
+               });
+                           </script>
+                        </div>
+                        <div class="ep-1">
+                            <button id="ep-6">
+                                6
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-6").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/r8MmpYdK0ZFbVqM//");
+                 });
+               });
+                </script>
+                        </div>
+
+                        <div class="ep-1">
+                            <button id="ep-7">
+                                7
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+$("#ep-7").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/wP1dPAOMGJuJ9jq/");
+                                        
+                                                  
+                 });
+               });
+                </script>
+                        </div>
+                        <div class="ep-1">
+                            <button id="ep-8">
+                                8
+                            </button>
+                            <script>
+                        
+                                $(document).ready(function() {
+                 $("#ep-8").on("click", function() {
+                   $(".embed-responsive-item").attr("src", "https://streamtape.com/e/09OePwBwaDtbbZW/");
+                 });
+               });
+                </script>
+                        </div>
+                      
+                    </div>
+                </section>
+                <div class="description mt-4">
+                    <H1>Description:</H1>
+        <p>
+      
+Special Ops: Lioness - A Synopsis
+Deep under the cover of affluence and tradition, where shadows whisper secrets and danger lurks beneath silken veils, lies a weapon unlike any other: the Lioness.
+
+Sarah "Joe" Blackburn, a seasoned CIA operative grappling with the double-edged sword of motherhood and duty, spearheads the Lioness Program. This clandestine initiative recruits and deploys highly skilled female operatives who, posing as wealthy socialites, infiltrate the inner circles of terrorist organizations.
+
+Enter Ariana "Cruz" Manuelos, a decorated Marine hardened by combat and haunted by ghosts. Recruited after a violent encounter, Cruz possesses the raw talent and fierce tenacity needed to become a Lioness. But can she shed the soldier's instincts and navigate the treacherous labyrinth of deception, where a single misstep could expose her and ignite a global inferno?
+
+Their mission: dismantle the Khorasan network, a shadowy terrorist group plotting a devastating attack on American soil. As Cruz plunges deeper into the gilded cage of the enemy, forging uneasy bonds with wives and daughters of high-ranking operatives, the lines between loyalty and betrayal blur.
+
+Haunted by suspicion and hunted by ruthless Khorasan enforcers, Cruz must walk a tightrope of lies and manipulation. Every social gathering, every whispered confidence, every extravagant feast is a battlefield where information is the currency and survival the ultimate prize.
+
+Back in the sterile command center, Joe wages a different war, battling bureaucratic constraints and her own maternal anxieties. Each blip on a monitor represents not just a target, but a life precariously balanced on the razor's edge. Can she keep Cruz safe as the mission spirals toward a heart-stopping climax, demanding a sacrifice that could shatter them both?
+
+Special Ops: Lioness is a heart-pounding thriller that rips through the veil of the opulent world, exposing the raw courage and cunning of women fighting in the shadows to protect everything they hold dear. It's a story of sisterhood forged in fire, the agonizing cost of secrets, and the unwavering will to do whatever it takes to prevent the unthinkable.</p>
+          
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-card">
+                    <div class="info-card-image">
+                        <img src="../img/Special Ops Lioness.jpg" alt="" width="250px">
+                        <p><b>Director:</b>Taylor Sheridan</p>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="cast">
+                                    <div class="cast-head">
+                                        <h3>Cast:</h3>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Cast Cards -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Zoe Saldana.jpg" alt="Henry Cavill">
+                                              
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Card for Gary Oldman -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Laysla De Olivera.jpg" alt="Gary Oldman">
+                                                
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Card for Abbie Cornish -->
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Stephanie Nur.jpg" alt="Abbie Cornish">
+                                                
+                                            </div>
+                                        </div>
+                    
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Jill Wagner.jpg" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Nicole Kidman.jpg" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Dave Annabelle.jfif" alt="Samuel L. Jackson">
+                                              
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="col-md-3">
+                                            <div class="cast-card">
+                                                <img src="../img/Morgan Freeman.jpg" alt="Samuel L. Jackson">
+                                                
+                                            </div>
+                                        </div>
+                    
+                    
+                                        <!-- Add more col-md-3 divs within the row for additional cast members -->
+                                    </div>
+                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rest of your info cards -->
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="marquee mt-5">
+        <marquee direction="right">
+            Action-
+            Adventure-
+            Mystery-
+            Thriller-
+            Horror-
+            Comedy-
+            Family-
+            Animated-
+            Pakistani-
+            Documentary-
+            Crime-
+            TV Shows-
+            Indie-
+            Drama-
+            Romance-
+            Sci-fi & Fantasy
+        </marquee>
+        <section>
+        <footer class="text-center mt-3" style="width: 100%; height: 170px; background-color: rgba(59, 59, 59, 0.884);">
+           <div class="footer-logo" style="display: flex; width: 40%; height: 120px;">
+            <img src="../img/Logo.png" alt="">
+           </div>
+            <p >@copyrights Reserved By <a href="https://codecanvas-v2.netlify.app/">CodeCanvas</a></p>
+        </footer>
+    </div>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
